@@ -90,7 +90,7 @@ def scrapping(browser):
         f_date = datetime.strptime(final_date,' %d/%m/%Y ').date()
         finalDateTime = f_date.strftime("%m-%d-%Y")
         F_DateTime = f_date.strftime("%Y-%m-%d")
-        # print("final_date")
+        print(f_date)
         print(finalDateTime)
         print(F_DateTime)
          # final_date = datetime.strf()           
@@ -98,3 +98,4 @@ def scrapping(browser):
          
     browser.close()     
 driver()
+
